@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 🫠 Biography 
+# 🫠 About Me 
 I am currently a Ph.D. student (2024.09 - Now), working in <a href='https://is.nju.edu.cn/main.htm'> School of Intelligence Science and Technology, Nanjing University </a>, with <a href='https://jessezhang92.github.io/'> Zhenyu Zhang (张振宇) </a>. 
 My research focuses on human-centric 3D digitization, including 3D human representation, reconstruction, generation and animation, etc.
 
