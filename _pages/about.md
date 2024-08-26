@@ -40,7 +40,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/SemanticHuman' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/SemanticHuman.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Learning Semantic-Aware Disentangled Representation for Flexible 3D Human Body Editing](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Learning_Semantic-Aware_Disentangled_Representation_for_Flexible_3D_Human_Body_Editing_CVPR_2023_paper.html)
