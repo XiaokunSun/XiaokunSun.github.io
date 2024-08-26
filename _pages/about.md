@@ -66,7 +66,7 @@ Xiongzheng Li*, Jing Huang*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-Ku
 </div>
 </div>
 
-# 📦️ OpenSource Repositories
+# 📦 OpenSource Repositories
 [Barbie](https://github.com/XiaokunSun/Barbie)
 
 [![](https://img.shields.io/github/stars/XiaokunSun/Barbie)](https://github.com/XiaokunSun/Barbie)
