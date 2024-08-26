@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaokun Sun"
-description              : "Xiaokun Sun's Homepage"
+description              : "Ph.D. Student in Nanjing University. My research focuses on human-centric 3D digitization, including 3D human representation, reconstruction, generation and animation, etc."
 repository               : "XiaokunSun/XiaokunSun.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xiaokun Sun"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/photo.jpg"
   bio              : "Nanjing University"
   location         : "Jiangsu, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=SG3SxqEAAAAJ"
-  email            : "Xiaokun_sun@smail.nju.edu.cn"
+  email            : "xiaokun_sun@smail.nju.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
