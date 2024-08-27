@@ -58,7 +58,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 [Learning to Infer Inner-Body under Clothing from Monocular Video](https://ieeexplore.ieee.org/document/9869633)
 
-Xiongzheng Li*, Jing Huang*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-Kun Lai, Yingdi Xie, Jingyu Yang, Kun Li (*=Equal contribution)
+Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-Kun Lai, Yingdi Xie, Jingyu Yang, Kun Li (*=Equal contribution)
 
 [**Project**](https://cic.tju.edu.cn/faculty/likun/projects/Inner-Body/index.html) | [**Paper**](https://ieeexplore.ieee.org/document/9869633) | [**Code**](https://github.com/xz-pisces/Inner-body) | [**Dataset**](https://ieee-dataport.org/documents/inner-body-dataset)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
