@@ -90,5 +90,5 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 - *2023.04 - 2023.10*, <a href='https://damo.alibaba.com/labs/xr-lab'> XR Lab at Alibaba </a>, Beijing, China.
 
 # 🏆 Honors and Awards
-- *2019.10* National First Prize in <a href='https://en.mcm.edu.cn/'> Contemporary Undergraduate Mathematical Contest in Modeling </a> (Top 0.75%)
+- *2019.10* National First Prize in <a href='https://en.mcm.edu.cn/'> China Undergraduate Mathematical Contest in Modeling </a> (Top 0.75%)
 
