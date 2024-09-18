@@ -24,7 +24,8 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 # 🔥 News
 - *2024.09*: &nbsp;🎉 My PhD student life begins, wish me luck!
-- *2024.08*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/Barbie.github.io/'> **Barbie** </a> focusing on high-fidelity disentangled text-to-3D-avatar has been released.
+- *2024.08*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/Barbie.github.io/'> Barbie </a> focusing on high-fidelity disentangled text-to-3D-avatar has been released.
+- *2024.01*: &nbsp;🎉 I successfully obtain my master's degree. <a href='../images/Master thesis.pdf'> Here </a> is my master thesis.
 
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/Barbie.png' alt="sym" width="100%"></div></div>
