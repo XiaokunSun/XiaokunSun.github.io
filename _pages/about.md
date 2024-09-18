@@ -41,7 +41,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Master thesis</div><img src='images/master_thesis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Master thesis 2024</div><img src='images/master_thesis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Fine-Grained Semantic Disentangled 3D Human Body Representation and Its Applications](images/Master thesis.pdf)
