@@ -18,13 +18,13 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🫠 About Me 
-I am currently a PhD student (2024.09 - Now) at <a href='https://is.nju.edu.cn/main.htm'> School of Intelligence Science and Technology, Nanjing University </a>, advised by <a href='https://jessezhang92.github.io/'> Zhenyu Zhang (张振宇) </a>, working closely with <a href='https://tyshiwo.github.io/index.html'> Ying Tai (邰颖) </a> and <a href='https://zili-yi.github.io/'> Zili Yi (易子立) </a>. My research focuses on human-centric 3D digitization, including 3D human representation, reconstruction, generation and animation, etc.
+I am currently a PhD student (2024.09 - Now) at <a href='https://is.nju.edu.cn/main.htm'> School of Intelligence Science and Technology, Nanjing University </a>, advised by <a href='https://jessezhang92.github.io'> Zhenyu Zhang (张振宇) </a>, working closely with <a href='https://tyshiwo.github.io/index.html'> Ying Tai (邰颖) </a> and <a href='https://zili-yi.github.io'> Zili Yi (易子立) </a>. My research focuses on human-centric 3D digitization, including 3D human representation, reconstruction, generation and animation, etc.
 
-I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer Science and Information Engineering, Hefei University of Technology </a> with a bachelor’s degree and from <a href='https://cic.tju.edu.cn/'> College of Intelligence and Computing, Tianjin University </a> with a master’s degree, advised by <a href='https://cic.tju.edu.cn/faculty/likun/index.html'> Kun Li (李坤) </a>, working closely with <a href='https://users.cs.cf.ac.uk/Yukun.Lai/'> Yu-Kun Lai (来煜坤) </a> and <a href='https://seea.tju.edu.cn/info/1015/1608.htm'> Jingyu Yang (杨敬钰) </a>.
+I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer Science and Information Engineering, Hefei University of Technology </a> with a bachelor’s degree and from <a href='https://cic.tju.edu.cn'> College of Intelligence and Computing, Tianjin University </a> with a master’s degree, advised by <a href='https://cic.tju.edu.cn/faculty/likun/index.html'> Kun Li (李坤) </a>, working closely with <a href='https://users.cs.cf.ac.uk/Yukun.Lai'> Yu-Kun Lai (来煜坤) </a> and <a href='https://seea.tju.edu.cn/info/1015/1608.htm'> Jingyu Yang (杨敬钰) </a>.
 
 # 🔥 News
 - *2024.09*: &nbsp;🎉 My PhD student life begins, wish me luck!
-- *2024.08*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/Barbie.github.io/'> Barbie </a> focusing on high-fidelity disentangled text-to-3D-avatar has been released.
+- *2024.08*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/Barbie.github.io'> Barbie </a> focusing on high-fidelity disentangled text-to-3D-avatar has been released.
 - *2024.01*: &nbsp;🎉 I successfully obtain my master's degree. <a href='images/Master thesis.pdf'> Here </a> is my master thesis.
 
 # 📝 Publications 
@@ -35,7 +35,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 **Xiaokun Sun**, Zhenyu Zhang, Ying Tai, Qian Wang, Hao Tang, Zili Yi, Jian Yang 
 
-[**Project**](https://xiaokunsun.github.io/Barbie.github.io/) | [**Paper**](https://arxiv.org/pdf/2408.09126) | [**Code**](https://github.com/XiaokunSun/Barbie) | [**Gallery**](https://drive.google.com/drive/folders/1FXDROWXrnsSQiOZ4vBgA_Yzib3irLNBc)
+[**Project**](https://xiaokunsun.github.io/Barbie.github.io) | [**Paper**](https://arxiv.org/pdf/2408.09126) | [**Code**](https://github.com/XiaokunSun/Barbie) | [**Gallery**](https://drive.google.com/drive/folders/1FXDROWXrnsSQiOZ4vBgA_Yzib3irLNBc)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
@@ -104,5 +104,5 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 - *2023.04 - 2023.10*, <a href='https://damo.alibaba.com/labs/xr-lab'> XR Lab at Alibaba </a>, Beijing, China.
 
 # 🏆 Honors and Awards
-- *2019.10* National First Prize in <a href='https://en.mcm.edu.cn/'> China Undergraduate Mathematical Contest in Modeling </a> (Top 0.75%)
+- *2019.10* National First Prize in <a href='https://en.mcm.edu.cn'> China Undergraduate Mathematical Contest in Modeling </a> (Top 0.75%)
 
