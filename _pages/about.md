@@ -40,6 +40,8 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/Barbie.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
