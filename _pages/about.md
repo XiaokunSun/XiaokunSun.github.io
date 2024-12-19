@@ -34,7 +34,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 [StrandHead: Text to Strand-Disentangled 3D Head Avatars Using Hair Geometric Priors](https://arxiv.org/pdf/2412.11586)
 
-**Xiaokun Sun**, Zeyu Cai, Zhenyu Zhang, Ying Tai, Jian Yang
+**Xiaokun Sun**, Zeyu Cai, Ying Tai, Jian Yang, Zhenyu Zhang
 
 [**Project**](https://xiaokunsun.github.io/StrandHead.github.io) | [**Arxiv**](https://arxiv.org/pdf/2412.11586) | [**Code**](https://github.com/XiaokunSun/StrandHead) | [**Gallery**](https://drive.google.com/drive/folders/1Ve2vVVilzI-2TYNB9wQrLgG53L2PjFBM?usp=sharing)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
