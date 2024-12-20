@@ -75,7 +75,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 **Xiaokun Sun**, Qiao Feng, Xiongzheng Li, Jinsong Zhang, Yu-Kun Lai, Jingyu Yang, Kun Li
 
-[**Project**](https://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman/index.html) | [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Learning_Semantic-Aware_Disentangled_Representation_for_Flexible_3D_Human_Body_Editing_CVPR_2023_paper.html) | [**Code**](https://github.com/XiaokunSun/SemanticHuman)
+[**Project**](https://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman/index.html) | [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Learning_Semantic-Aware_Disentangled_Representation_for_Flexible_3D_Human_Body_Editing_CVPR_2023_paper.html) | [**Code**](https://github.com/XiaokunSun/SemanticHuman) | [**Video**](https://www.youtube.com/watch?v=hnrIv1bnZVw)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
