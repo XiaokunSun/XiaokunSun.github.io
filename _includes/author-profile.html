@@ -106,6 +106,9 @@
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
       {% endif %}
+      {% if author.huggingface %}
+        <li><a href="{{ author.huggingface }}"><i class="fal fa-laugh-squint" /> Hugging Face</a></li>
+      {% endif %}
       {% if author.semanticscholar %}
         <li><a href="{{ author.semanticscholar }}"><i class="ai ai-semantic-scholar-square custom-icon" aria-hidden="true"></i> Semantic Scholar</a></li>
       {% endif %}
@@ -203,6 +206,9 @@
       {% endif %}
       {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>
+      {% endif %}
+      {% if author.huggingface %}
+        <a href="{{ author.huggingface }}"><i class="fal fa-laugh-squint" /></a>
       {% endif %}
       {% if author.semanticscholar %}
         <a href="{{ author.semanticscholar }}"><i class="ai ai-semantic-scholar-square custom-icon"  aria-hidden="true"></i></a>
