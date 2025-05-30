@@ -23,6 +23,7 @@ I am currently a PhD student (2024.09 - Now) at <a href='https://is.nju.edu.cn/m
 I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer Science and Information Engineering, Hefei University of Technology </a> with a bachelor’s degree and from <a href='https://cic.tju.edu.cn'> College of Intelligence and Computing, Tianjin University </a> with a master’s degree, advised by <a href='https://cic.tju.edu.cn/faculty/likun/index.html'> Kun Li (李坤) </a>, working closely with <a href='https://users.cs.cf.ac.uk/Yukun.Lai'> Yu-Kun Lai (来煜坤) </a> and <a href='https://seea.tju.edu.cn/info/1015/1608.htm'> Jingyu Yang (杨敬钰) </a>.
 
 # 🔥 News
+- *2025.05*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/Barbie.github.io'> Barbie </a> now supports expressive animation, and physical simulation!
 - *2024.12*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/StrandHead.github.io'> StrandHead </a> focusing on strand-disentangled text-to-3D-head has been released.
 - *2024.09*: &nbsp;🎉 My PhD student life begins, wish me luck!
 - *2024.08*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/Barbie.github.io'> Barbie </a> focusing on high-fidelity disentangled text-to-3D-avatar has been released.
@@ -47,7 +48,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 [Barbie: Text to Barbie-Style 3D Avatars](https://arxiv.org/pdf/2408.09126)
 
-**Xiaokun Sun**, Zhenyu Zhang, Ying Tai, Qian Wang, Hao Tang, Zili Yi, Jian Yang 
+**Xiaokun Sun**, Zhenyu Zhang, Ying Tai, Hao Tang, Zili Yi, Jian Yang 
 
 [**Project**](https://xiaokunsun.github.io/Barbie.github.io) | [**Arxiv**](https://arxiv.org/pdf/2408.09126) | [**Code**](https://github.com/XiaokunSun/Barbie) | [**Gallery**](https://drive.google.com/drive/folders/1FXDROWXrnsSQiOZ4vBgA_Yzib3irLNBc)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
