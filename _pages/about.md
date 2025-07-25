@@ -23,6 +23,7 @@ I am currently a PhD student (2024.09 - Now) at <a href='https://is.nju.edu.cn/m
 I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer Science and Information Engineering, Hefei University of Technology </a> with a bachelor’s degree and from <a href='https://cic.tju.edu.cn'> College of Intelligence and Computing, Tianjin University </a> with a master’s degree, advised by <a href='https://cic.tju.edu.cn/faculty/likun/index.html'> Kun Li (李坤) </a>, working closely with <a href='https://users.cs.cf.ac.uk/Yukun.Lai'> Yu-Kun Lai (来煜坤) </a> and <a href='https://seea.tju.edu.cn/info/1015/1608.htm'> Jingyu Yang (杨敬钰) </a>.
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/StrandHead.github.io'> StrandHead </a> is accepted by ICCV 2025!
 - *2025.05*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/Barbie.github.io'> Barbie </a> now supports expressive animation, and physical simulation!
 - *2024.12*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/StrandHead.github.io'> StrandHead </a> focusing on strand-disentangled text-to-3D-head has been released.
 - *2024.09*: &nbsp;🎉 My PhD student life begins, wish me luck!
@@ -30,10 +31,10 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 - *2024.01*: &nbsp;🎉 I successfully obtain my master's degree. <a href='images/Master thesis.pdf'> Here </a> is my master thesis.
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/StrandHead.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/StrandHead.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[StrandHead: Text to Strand-Disentangled 3D Head Avatars Using Hair Geometric Priors](https://arxiv.org/pdf/2412.11586)
+[StrandHead: Text to Hair-Disentangled 3D Head Avatars Using Human-Centric Priors](https://arxiv.org/pdf/2412.11586)
 
 **Xiaokun Sun**, Zeyu Cai, Ying Tai, Jian Yang, Zhenyu Zhang
 
