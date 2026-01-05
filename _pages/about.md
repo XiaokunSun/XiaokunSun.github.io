@@ -23,6 +23,7 @@ I am currently a PhD student (2024.09 - Now) at <a href='https://is.nju.edu.cn/m
 I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer Science and Information Engineering, Hefei University of Technology </a> with a bachelor’s degree and from <a href='https://cic.tju.edu.cn'> College of Intelligence and Computing, Tianjin University </a> with a master’s degree, advised by <a href='https://cic.tju.edu.cn/faculty/likun/index.html'> Kun Li (李坤) </a>, working closely with <a href='https://users.cs.cf.ac.uk/Yukun.Lai'> Yu-Kun Lai (来煜坤) </a> and <a href='https://seea.tju.edu.cn/info/1015/1608.htm'> Jingyu Yang (杨敬钰) </a>.
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/MorphAny3D.github.io'> MorphAny3D </a> focusing on robust 3D morphing has been released.
 - *2025.06*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/StrandHead.github.io'> StrandHead </a> is accepted by ICCV 2025!
 - *2025.05*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/Barbie.github.io'> Barbie </a> now supports expressive animation, and physical simulation!
 - *2024.12*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/StrandHead.github.io'> StrandHead </a> focusing on strand-disentangled text-to-3D-head has been released.
@@ -31,6 +32,19 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 - *2024.01*: &nbsp;🎉 I successfully obtain my master's degree. <a href='images/Master thesis.pdf'> Here </a> is my master thesis.
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/MorphAny3D.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MorphAny3D: Unleashing the Power of Structured Latent in 3D Morphing](https://arxiv.org/pdf/2601.00204)
+
+**Xiaokun Sun**, Zeyu Cai, Hao Tang, Ying Tai, Jian Yang, Zhenyu Zhang
+
+[**Project**](https://xiaokunsun.github.io/MorphAny3D.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.00204) | [**Code**](https://github.com/XiaokunSun/MorphAny3D)
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/StrandHead.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -44,7 +58,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/Barbie.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/Barbie.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Barbie: Text to Barbie-Style 3D Avatars](https://arxiv.org/pdf/2408.09126)
@@ -97,6 +111,12 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 </div>
 
 # 📦 OpenSource Repositories
+[MorphAny3D](https://github.com/XiaokunSun/MorphAny3D)
+
+[![](https://img.shields.io/github/stars/XiaokunSun/MorphAny3D)](https://github.com/XiaokunSun/MorphAny3D)
+[![](https://img.shields.io/github/forks/XiaokunSun/MorphAny3D)](https://github.com/XiaokunSun/MorphAny3D)
+[![](https://img.shields.io/github/issues/XiaokunSun/MorphAny3D)](https://github.com/XiaokunSun/MorphAny3D)
+
 [StrandHead](https://github.com/XiaokunSun/StrandHead)
 
 [![](https://img.shields.io/github/stars/XiaokunSun/StrandHead)](https://github.com/XiaokunSun/StrandHead)
@@ -130,3 +150,5 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 # 🏆 Honors and Awards
 - *2019.10* National First Prize in <a href='https://en.mcm.edu.cn'> China Undergraduate Mathematical Contest in Modeling </a> (Top 0.75%)
 
+# 😊 Academic Services
+- *Conference Reviewer*: ICCV, CVPR
