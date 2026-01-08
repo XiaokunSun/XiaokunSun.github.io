@@ -31,7 +31,21 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 - *2024.08*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/Barbie.github.io'> Barbie </a> focusing on high-fidelity disentangled text-to-3D-avatar has been released.
 - *2024.01*: &nbsp;🎉 I successfully obtain my master's degree. <a href='images/Master thesis.pdf'> Here </a> is my master thesis.
 
-# 📝 Publications 
+# 📕 Preprints
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/Muses.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Muses: Designing, Composing, Generating Nonexistent Fantasy 3D Creatures without Training](https://arxiv.org/pdf/2601.03256)
+
+Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Zhang (*=Equal contribution)
+
+[**Project**](https://luhexiao.github.io/Muses.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.03256) | [**Code**](https://github.com/luhexiao/Muses)
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/MorphAny3D.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -45,19 +59,6 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/StrandHead.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[StrandHead: Text to Hair-Disentangled 3D Head Avatars Using Human-Centric Priors](https://arxiv.org/pdf/2412.11586)
-
-**Xiaokun Sun**, Zeyu Cai, Ying Tai, Jian Yang, Zhenyu Zhang
-
-[**Project**](https://xiaokunsun.github.io/StrandHead.github.io) | [**Arxiv**](https://arxiv.org/pdf/2412.11586) | [**Code**](https://github.com/XiaokunSun/StrandHead) | [**Gallery**](https://drive.google.com/drive/folders/1Ve2vVVilzI-2TYNB9wQrLgG53L2PjFBM?usp=sharing)
-<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/Barbie.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -66,6 +67,21 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 **Xiaokun Sun**, Zhenyu Zhang, Ying Tai, Hao Tang, Zili Yi, Jian Yang 
 
 [**Project**](https://xiaokunsun.github.io/Barbie.github.io) | [**Arxiv**](https://arxiv.org/pdf/2408.09126) | [**Code**](https://github.com/XiaokunSun/Barbie) | [**Gallery**](https://drive.google.com/drive/folders/1FXDROWXrnsSQiOZ4vBgA_Yzib3irLNBc)
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
+
+</div>
+</div>
+
+# 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/StrandHead.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[StrandHead: Text to Hair-Disentangled 3D Head Avatars Using Human-Centric Priors](https://arxiv.org/pdf/2412.11586)
+
+**Xiaokun Sun**, Zeyu Cai, Ying Tai, Jian Yang, Zhenyu Zhang
+
+[**Project**](https://xiaokunsun.github.io/StrandHead.github.io) | [**Arxiv**](https://arxiv.org/pdf/2412.11586) | [**Code**](https://github.com/XiaokunSun/StrandHead) | [**Gallery**](https://drive.google.com/drive/folders/1Ve2vVVilzI-2TYNB9wQrLgG53L2PjFBM?usp=sharing)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
