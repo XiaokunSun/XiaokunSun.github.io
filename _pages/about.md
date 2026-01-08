@@ -23,6 +23,7 @@ I am currently a PhD student (2024.09 - Now) at <a href='https://is.nju.edu.cn/m
 I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer Science and Information Engineering, Hefei University of Technology </a> with a bachelor’s degree and from <a href='https://cic.tju.edu.cn'> College of Intelligence and Computing, Tianjin University </a> with a master’s degree, advised by <a href='https://cic.tju.edu.cn/faculty/likun/index.html'> Kun Li (李坤) </a>, working closely with <a href='https://users.cs.cf.ac.uk/Yukun.Lai'> Yu-Kun Lai (来煜坤) </a> and <a href='https://seea.tju.edu.cn/info/1015/1608.htm'> Jingyu Yang (杨敬钰) </a>.
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉 Our paper <a href='https://luhexiao.github.io/Muses.github.io'> Muses </a> focusing on fantasy 3D creatures generation has been released.
 - *2026.01*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/MorphAny3D.github.io'> MorphAny3D </a> focusing on robust 3D morphing has been released.
 - *2025.06*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/StrandHead.github.io'> StrandHead </a> is accepted by ICCV 2025!
 - *2025.05*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/Barbie.github.io'> Barbie </a> now supports expressive animation, and physical simulation!
