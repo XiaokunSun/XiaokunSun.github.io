@@ -140,15 +140,11 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 [![](https://img.shields.io/github/forks/XiaokunSun/StrandHead)](https://github.com/XiaokunSun/StrandHead)
 [![](https://img.shields.io/github/issues/XiaokunSun/StrandHead)](https://github.com/XiaokunSun/StrandHead)
 
----
-
 [Barbie](https://github.com/XiaokunSun/Barbie)
 
 [![](https://img.shields.io/github/stars/XiaokunSun/Barbie)](https://github.com/XiaokunSun/Barbie)
 [![](https://img.shields.io/github/forks/XiaokunSun/Barbie)](https://github.com/XiaokunSun/Barbie)
 [![](https://img.shields.io/github/issues/XiaokunSun/Barbie)](https://github.com/XiaokunSun/Barbie)
-
----
 
 [SemanticHuman](https://github.com/XiaokunSun/SemanticHuman)
 
