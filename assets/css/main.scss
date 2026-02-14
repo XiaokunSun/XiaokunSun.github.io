@@ -109,8 +109,19 @@ h1:before, .anchor:before {
 }
 
 .news-scroll {
-    max-height: 220px;
-    overflow-y: auto;
-    padding-right: .75em;
-    margin-bottom: 1.5em;
+  height: 220px;      /* 设置你希望显示的高度 */
+  overflow-y: scroll; /* 强制显示竖直滚动条 */
+  border: 1px solid #eee; /* 可选：给新闻框加一个淡色边框 */
+  padding: 10px;      /* 可选：让文字离边框有点距离 */
+  margin-bottom: 20px;
+  border-radius: 5px; /* 可选：圆角 */
+}
+
+/* 可选：美化滚动条（针对 Chrome/Safari） */
+.news-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.news-scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
 }
