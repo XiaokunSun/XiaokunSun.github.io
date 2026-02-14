@@ -23,14 +23,17 @@ I am currently a PhD student (2024.09 - Now) at <a href='https://is.nju.edu.cn/m
 I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer Science and Information Engineering, Hefei University of Technology </a> with a bachelor’s degree and from <a href='https://cic.tju.edu.cn'> College of Intelligence and Computing, Tianjin University </a> with a master’s degree, advised by <a href='https://cic.tju.edu.cn/faculty/likun/index.html'> Kun Li (李坤) </a>, working closely with <a href='https://users.cs.cf.ac.uk/Yukun.Lai'> Yu-Kun Lai (来煜坤) </a> and <a href='https://seea.tju.edu.cn/info/1015/1608.htm'> Jingyu Yang (杨敬钰) </a>.
 
 # 🔥 News
+<div class="news-scroll">
+- *2026.02*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/DreamBarbie.github.io'> DreamBarbie </a> is accepted by TVCG 2026!
 - *2026.01*: &nbsp;🎉 Our paper <a href='https://luhexiao.github.io/Muses.github.io'> Muses </a> focusing on fantasy 3D creatures generation has been released.
 - *2026.01*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/MorphAny3D.github.io'> MorphAny3D </a> focusing on robust 3D morphing has been released.
 - *2025.06*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/StrandHead.github.io'> StrandHead </a> is accepted by ICCV 2025!
-- *2025.05*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/Barbie.github.io'> Barbie </a> now supports expressive animation, and physical simulation!
+- *2025.05*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/DreamBarbie.github.io'> DreamBarbie </a> now supports expressive animation, and physical simulation!
 - *2024.12*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/StrandHead.github.io'> StrandHead </a> focusing on strand-disentangled text-to-3D-head has been released.
 - *2024.09*: &nbsp;🎉 My PhD student life begins, wish me luck!
-- *2024.08*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/Barbie.github.io'> Barbie </a> focusing on high-fidelity disentangled text-to-3D-avatar has been released.
+- *2024.08*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/DreamBarbie.github.io'> DreamBarbie </a> focusing on high-fidelity disentangled text-to-3D-avatar has been released.
 - *2024.01*: &nbsp;🎉 I successfully obtain my master's degree. <a href='images/Master thesis.pdf'> Here </a> is my master thesis.
+</div>
 
 # 📕 Preprints
 
@@ -60,20 +63,20 @@ Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Z
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/Barbie.png' alt="sym" width="100%"></div></div>
+# 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2026</div><img src='images/DreamBarbie.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Barbie: Text to Barbie-Style 3D Avatars](https://arxiv.org/pdf/2408.09126)
+[DreamBarbie: Text to Barbie-Style 3D Avatars](https://arxiv.org/pdf/2408.09126)
 
 **Xiaokun Sun**, Zhenyu Zhang, Ying Tai, Hao Tang, Zili Yi, Jian Yang 
 
-[**Project**](https://xiaokunsun.github.io/Barbie.github.io) | [**Arxiv**](https://arxiv.org/pdf/2408.09126) | [**Code**](https://github.com/XiaokunSun/Barbie) | [**Gallery**](https://drive.google.com/drive/folders/1FXDROWXrnsSQiOZ4vBgA_Yzib3irLNBc)
+[**Project**](https://xiaokunsun.github.io/DreamBarbie.github.io) | [**Arxiv**](https://arxiv.org/pdf/2408.09126) | [**Code**](https://github.com/XiaokunSun/DreamBarbie) | [**Gallery**](https://drive.google.com/drive/folders/1FXDROWXrnsSQiOZ4vBgA_Yzib3irLNBc)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
 </div>
-
-# 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/StrandHead.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -127,31 +130,6 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 </div>
 </div>
 
-# 📦 OpenSource Repositories
-[MorphAny3D](https://github.com/XiaokunSun/MorphAny3D)
-
-[![](https://img.shields.io/github/stars/XiaokunSun/MorphAny3D)](https://github.com/XiaokunSun/MorphAny3D)
-[![](https://img.shields.io/github/forks/XiaokunSun/MorphAny3D)](https://github.com/XiaokunSun/MorphAny3D)
-[![](https://img.shields.io/github/issues/XiaokunSun/MorphAny3D)](https://github.com/XiaokunSun/MorphAny3D)
-
-[StrandHead](https://github.com/XiaokunSun/StrandHead)
-
-[![](https://img.shields.io/github/stars/XiaokunSun/StrandHead)](https://github.com/XiaokunSun/StrandHead)
-[![](https://img.shields.io/github/forks/XiaokunSun/StrandHead)](https://github.com/XiaokunSun/StrandHead)
-[![](https://img.shields.io/github/issues/XiaokunSun/StrandHead)](https://github.com/XiaokunSun/StrandHead)
-
-[Barbie](https://github.com/XiaokunSun/Barbie)
-
-[![](https://img.shields.io/github/stars/XiaokunSun/Barbie)](https://github.com/XiaokunSun/Barbie)
-[![](https://img.shields.io/github/forks/XiaokunSun/Barbie)](https://github.com/XiaokunSun/Barbie)
-[![](https://img.shields.io/github/issues/XiaokunSun/Barbie)](https://github.com/XiaokunSun/Barbie)
-
-[SemanticHuman](https://github.com/XiaokunSun/SemanticHuman)
-
-[![](https://img.shields.io/github/stars/XiaokunSun/SemanticHuman)](https://github.com/XiaokunSun/SemanticHuman)
-[![](https://img.shields.io/github/forks/XiaokunSun/SemanticHuman)](https://github.com/XiaokunSun/SemanticHuman)
-[![](https://img.shields.io/github/issues/XiaokunSun/SemanticHuman)](https://github.com/XiaokunSun/SemanticHuman)
-
 # 📖 Educations
 - *2024.09 - now*, PhD Student, Nanjing University, Suzhou, China.
 - *2021.09 - 2024.01*, Master, Tianjing University, Tianjin, China.
@@ -164,4 +142,4 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 - *2019.10* National First Prize in <a href='https://en.mcm.edu.cn'> China Undergraduate Mathematical Contest in Modeling </a> (Top 0.75%)
 
 # 😊 Academic Services
-- *Conference Reviewer*: ICCV, CVPR
+- *Reviewer*: CVPR, ICCV, ECCV, EG

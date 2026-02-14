@@ -107,3 +107,10 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.news-scroll {
+    max-height: 220px;
+    overflow-y: auto;
+    padding-right: .75em;
+    margin-bottom: 1.5em;
+}
