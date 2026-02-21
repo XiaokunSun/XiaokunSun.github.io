@@ -23,6 +23,7 @@ I am currently a PhD student (2024.09 - Now) at <a href='https://is.nju.edu.cn/m
 I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer Science and Information Engineering, Hefei University of Technology </a> with a bachelor’s degree and from <a href='https://cic.tju.edu.cn'> College of Intelligence and Computing, Tianjin University </a> with a master’s degree, advised by <a href='https://cic.tju.edu.cn/faculty/likun/index.html'> Kun Li (李坤) </a>, working closely with <a href='https://users.cs.cf.ac.uk/Yukun.Lai'> Yu-Kun Lai (来煜坤) </a> and <a href='https://seea.tju.edu.cn/info/1015/1608.htm'> Jingyu Yang (杨敬钰) </a>.
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/MorphAny3D.github.io'> MorphAny3D </a> and <a href='https://luhexiao.github.io/Muses.github.io'> Muses </a> are accepted by CVPR 2026!
 - *2026.02*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/DreamBarbie.github.io'> DreamBarbie </a> is accepted by TVCG 2026!
 - *2026.01*: &nbsp;🎉 Our paper <a href='https://luhexiao.github.io/Muses.github.io'> Muses </a> focusing on fantasy 3D creatures generation has been released.
 - *2026.01*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/MorphAny3D.github.io'> MorphAny3D </a> focusing on robust 3D morphing has been released.
@@ -33,22 +34,11 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 - *2024.08*: &nbsp;🎉 Our paper <a href='https://xiaokunsun.github.io/DreamBarbie.github.io'> DreamBarbie </a> focusing on high-fidelity disentangled text-to-3D-avatar has been released.
 - *2024.01*: &nbsp;🎉 I successfully obtain my master's degree. <a href='images/Master thesis.pdf'> Here </a> is my master thesis.
 
-# 📕 Preprints
+<!-- # 📕 Preprints -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/Muses.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📝 Publications 
 
-[Muses: Designing, Composing, Generating Nonexistent Fantasy 3D Creatures without Training](https://arxiv.org/pdf/2601.03256)
-
-Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Zhang (*=Equal contribution)
-
-[**Project**](https://luhexiao.github.io/Muses.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.03256) | [**Code**](https://github.com/luhexiao/Muses)
-<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/MorphAny3D.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/MorphAny3D.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MorphAny3D: Unleashing the Power of Structured Latent in 3D Morphing](https://arxiv.org/pdf/2601.00204)
@@ -61,7 +51,18 @@ Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Z
 </div>
 </div>
 
-# 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/Muses.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Muses: Designing, Composing, Generating Nonexistent Fantasy 3D Creatures without Training](https://arxiv.org/pdf/2601.03256)
+
+Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Zhang (*=Equal contribution)
+
+[**Project**](https://luhexiao.github.io/Muses.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.03256) | [**Code**](https://github.com/luhexiao/Muses)
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2026</div><img src='images/DreamBarbie.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
