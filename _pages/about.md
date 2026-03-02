@@ -45,7 +45,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 **Xiaokun Sun**, Zeyu Cai, Hao Tang, Ying Tai, Jian Yang, Zhenyu Zhang
 
-[**Project**](https://xiaokunsun.github.io/MorphAny3D.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.00204) | [**Code**](https://github.com/XiaokunSun/MorphAny3D)
+[**Project Page**](https://xiaokunsun.github.io/MorphAny3D.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.00204) | [**Code**](https://github.com/XiaokunSun/MorphAny3D)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
@@ -58,7 +58,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Zhang (*=Equal contribution)
 
-[**Project**](https://luhexiao.github.io/Muses.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.03256) | [**Code**](https://github.com/luhexiao/Muses)
+[**Project Page**](https://luhexiao.github.io/Muses.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.03256) | [**Code**](https://github.com/luhexiao/Muses)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
@@ -71,7 +71,7 @@ Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Z
 
 **Xiaokun Sun**, Zhenyu Zhang, Ying Tai, Hao Tang, Zili Yi, Jian Yang 
 
-[**Project**](https://xiaokunsun.github.io/DreamBarbie.github.io) | [**Arxiv**](https://arxiv.org/pdf/2408.09126) | [**Code**](https://github.com/XiaokunSun/DreamBarbie) | [**Gallery**](https://drive.google.com/drive/folders/1FXDROWXrnsSQiOZ4vBgA_Yzib3irLNBc)
+[**Project Page**](https://xiaokunsun.github.io/DreamBarbie.github.io) | [**Arxiv**](https://arxiv.org/pdf/2408.09126) | [**Code**](https://github.com/XiaokunSun/DreamBarbie) | [**Gallery**](https://drive.google.com/drive/folders/1FXDROWXrnsSQiOZ4vBgA_Yzib3irLNBc)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
@@ -84,7 +84,7 @@ Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Z
 
 **Xiaokun Sun**, Zeyu Cai, Ying Tai, Jian Yang, Zhenyu Zhang
 
-[**Project**](https://xiaokunsun.github.io/StrandHead.github.io) | [**Arxiv**](https://arxiv.org/pdf/2412.11586) | [**Code**](https://github.com/XiaokunSun/StrandHead) | [**Gallery**](https://drive.google.com/drive/folders/1Ve2vVVilzI-2TYNB9wQrLgG53L2PjFBM?usp=sharing)
+[**Project Page**](https://xiaokunsun.github.io/StrandHead.github.io) | [**Arxiv**](https://arxiv.org/pdf/2412.11586) | [**Code**](https://github.com/XiaokunSun/StrandHead) | [**Gallery**](https://drive.google.com/drive/folders/1Ve2vVVilzI-2TYNB9wQrLgG53L2PjFBM?usp=sharing)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
@@ -110,7 +110,7 @@ Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Z
 
 **Xiaokun Sun**, Qiao Feng, Xiongzheng Li, Jinsong Zhang, Yu-Kun Lai, Jingyu Yang, Kun Li
 
-[**Project**](https://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman/index.html) | [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Learning_Semantic-Aware_Disentangled_Representation_for_Flexible_3D_Human_Body_Editing_CVPR_2023_paper.html) | [**Code**](https://github.com/XiaokunSun/SemanticHuman) | [**Video**](https://www.youtube.com/watch?v=hnrIv1bnZVw) | [**新智元**](https://mp.weixin.qq.com/s/6v-3nbzYq2hZCsSacycDRw)
+[**Project Page**](https://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman/index.html) | [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Learning_Semantic-Aware_Disentangled_Representation_for_Flexible_3D_Human_Body_Editing_CVPR_2023_paper.html) | [**Code**](https://github.com/XiaokunSun/SemanticHuman) | [**Video**](https://www.youtube.com/watch?v=hnrIv1bnZVw) | [**新智元**](https://mp.weixin.qq.com/s/6v-3nbzYq2hZCsSacycDRw)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
@@ -123,7 +123,7 @@ Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Z
 
 Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-Kun Lai, Yingdi Xie, Jingyu Yang, Kun Li (*=Equal contribution)
 
-[**Project**](https://cic.tju.edu.cn/faculty/likun/projects/Inner-Body/index.html) | [**Paper**](https://ieeexplore.ieee.org/document/9869633) | [**Code**](https://github.com/xz-pisces/Inner-body) | [**Dataset**](https://ieee-dataport.org/documents/inner-body-dataset)
+[**Project Page**](https://cic.tju.edu.cn/faculty/likun/projects/Inner-Body/index.html) | [**Paper**](https://ieeexplore.ieee.org/document/9869633) | [**Code**](https://github.com/xz-pisces/Inner-body) | [**Dataset**](https://ieee-dataport.org/documents/inner-body-dataset)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
