@@ -9,8 +9,8 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "OpenSource Repositories"
-    url: "/#-opensource-repositories"
+  # - title: "OpenSource Repositories"
+  #   url: "/#-opensource-repositories"
     
   - title: "Educations"
     url: "/#-educations"
