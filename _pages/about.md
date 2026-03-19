@@ -48,7 +48,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 **Xiaokun Sun**, Zeyu Cai, Hao Tang, Ying Tai, Jian Yang, Zhenyu Zhang
 
-[**Project Page**](https://xiaokunsun.github.io/MorphAny3D.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.00204) | [**Code**](https://github.com/XiaokunSun/MorphAny3D)
+[**Project Page**](https://xiaokunsun.github.io/MorphAny3D.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.00204) | [**Code**](https://github.com/XiaokunSun/MorphAny3D) | [**新智元**](https://mp.weixin.qq.com/s/NIfDF0RUEidH0tIlPw0gHw)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
@@ -144,4 +144,4 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 - *2019.10* National First Prize in <a href='https://en.mcm.edu.cn'> China Undergraduate Mathematical Contest in Modeling </a> (Top 0.75%)
 
 # 😊 Academic Services
-- *Reviewer*: CVPR, ICCV, ECCV, EG
+- *Reviewer*: CVPR, ICCV, ECCV, BMVC, EG
