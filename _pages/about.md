@@ -48,7 +48,7 @@ I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer 
 
 **Xiaokun Sun**, Zeyu Cai, Hao Tang, Ying Tai, Jian Yang, Zhenyu Zhang
 
-[**Project Page**](https://xiaokunsun.github.io/MorphAny3D.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.00204) | [**Code**](https://github.com/XiaokunSun/MorphAny3D) | [**新智元**](https://mp.weixin.qq.com/s/NIfDF0RUEidH0tIlPw0gHw)
+[**Project Page**](https://xiaokunsun.github.io/MorphAny3D.github.io) | [**Arxiv**](https://arxiv.org/pdf/2601.00204) | [**Code**](https://github.com/XiaokunSun/MorphAny3D) | [**Blog**](https://mp.weixin.qq.com/s/NIfDF0RUEidH0tIlPw0gHw)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
@@ -113,7 +113,7 @@ Hexiao Lu\*, **Xiaokun Sun\***, Zeyu Cai, Hao Guo, Ying Tai, Jian Yang, Zhenyu Z
 
 **Xiaokun Sun**, Qiao Feng, Xiongzheng Li, Jinsong Zhang, Yu-Kun Lai, Jingyu Yang, Kun Li
 
-[**Project Page**](https://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman/index.html) | [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Learning_Semantic-Aware_Disentangled_Representation_for_Flexible_3D_Human_Body_Editing_CVPR_2023_paper.html) | [**Code**](https://github.com/XiaokunSun/SemanticHuman) | [**Video**](https://www.youtube.com/watch?v=hnrIv1bnZVw) | [**新智元**](https://mp.weixin.qq.com/s/6v-3nbzYq2hZCsSacycDRw)
+[**Project Page**](https://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman/index.html) | [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Learning_Semantic-Aware_Disentangled_Representation_for_Flexible_3D_Human_Body_Editing_CVPR_2023_paper.html) | [**Code**](https://github.com/XiaokunSun/SemanticHuman) | [**Video**](https://www.youtube.com/watch?v=hnrIv1bnZVw) | [**Blog**](https://mp.weixin.qq.com/s/6v-3nbzYq2hZCsSacycDRw)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 </div>
