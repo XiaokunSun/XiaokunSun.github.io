@@ -144,4 +144,4 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 - *2019.10* National First Prize in <a href='https://en.mcm.edu.cn'> China Undergraduate Mathematical Contest in Modeling </a> (Top 0.75%)
 
 # 😊 Academic Services
-- *Reviewer*: CVPR, ICCV, ECCV, BMVC, EG
+- *Reviewer*: CVPR, ICCV, NeurIPS, ECCV, BMVC, EG
