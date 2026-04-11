@@ -23,9 +23,10 @@ My research focuses on 3D content generation, encompassing human-centric digital
 
 I graduated from <a href='https://ci.hfut.edu.cn/index.htm'> School of Computer Science and Information Engineering, Hefei University of Technology </a> with a bachelor’s degree and from <a href='https://cic.tju.edu.cn'> College of Intelligence and Computing, Tianjin University </a> with a master’s degree, advised by <a href='https://cic.tju.edu.cn/faculty/likun/index.html'> Kun Li (李坤) </a>, working closely with <a href='https://users.cs.cf.ac.uk/Yukun.Lai'> Yu-Kun Lai (来煜坤) </a> and <a href='https://seea.tju.edu.cn/info/1015/1608.htm'> Jingyu Yang (杨敬钰) </a>.
 
-<span style="color: red;">**I am looking for an internship in 3D generation. Please feel free to contact me!**</span>
+<span style="color: red;">**I am always open to discussions and collaborations, feel free to contact me!**</span>
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉 My internship journey at <a href='https://www.mihoyo.com/'> miHoYo </a> begins, wish me luck!
 - *2026.02*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/MorphAny3D.github.io'> MorphAny3D </a> and <a href='https://luhexiao.github.io/Muses.github.io'> Muses </a> are accepted by CVPR 2026!
 - *2026.02*: &nbsp;🎉 <a href='https://xiaokunsun.github.io/DreamBarbie.github.io'> DreamBarbie </a> is accepted by TVCG 2026!
 - *2026.01*: &nbsp;🎉 Our paper <a href='https://luhexiao.github.io/Muses.github.io'> Muses </a> focusing on fantasy 3D creatures generation has been released.
@@ -138,7 +139,8 @@ Xiongzheng Li\*, Jing Huang\*, Jinsong Zhang, **Xiaokun Sun**, Haibiao Xuan, Yu-
 - *2017.09 - 2021.06*, Bachelor, Hefei University of Technology, Hefei, China.
 
 # 💻 Internships
-- *2023.04 - 2023.10*, <a href='https://damo.alibaba.com/labs/xr-lab'> XR Lab at Alibaba </a>, Beijing, China.
+- *2026.04 - now*, Research Intern, <a href='https://www.mihoyo.com/'> miHoYo </a>, Shanghai, China.
+- *2023.04 - 2023.10*, Research Intern, <a href='https://damo.alibaba.com/labs/xr-lab'> XR Lab at Alibaba </a>, Beijing, China.
 
 # 🏆 Honors and Awards
 - *2019.10* National First Prize in <a href='https://en.mcm.edu.cn'> China Undergraduate Mathematical Contest in Modeling </a> (Top 0.75%)
