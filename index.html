@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xiaokun Sun (孙晓琨)</title>
+<meta name="description" content="Xiaokun Sun (孙晓琨) — PhD student at Nanjing University working on 3D content generation.">
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- 加载页：页面和首屏图片就绪后自动淡出 -->
+<div class="loader" id="loader" role="status" aria-label="Loading">
+  <div class="loader-inner">
+    <div class="loader-ring"><img src="images/avatar.png" alt=""></div>
+    <div class="loader-name">Xiaokun Sun</div>
+    <div class="loader-bar"><i></i></div>
+  </div>
+</div>
+
+<div id="app"></div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <section class="visitors" aria-label="Visitors">
+      <div class="visitor-head">
+        <p class="visitor-title">
+          <svg class="ui" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          Visitors around the world
+        </p>
+        <p class="map-total" id="map-total" hidden><b>–</b><span>Total Pageviews</span></p>
+      </div>
+      <div class="visitor-map is-loading" id="visitor-map">
+        <div class="visitor-status" id="visitor-status"><span>Loading visitor map…</span></div>
+      </div>
+    </section>
+    <p id="footer-meta"></p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="assets/icons.js"></script>
+<script src="assets/render.js"></script>
+<script src="assets/visitors.js"></script>
+</body>
+</html>

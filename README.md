@@ -1,72 +1,120 @@
+# 个人主页维护说明
 
-<h1 align="center">
-AcadHomepage
-</h1>
+纯静态网页，无需构建，直接推送到 `XiaokunSun.github.io` 仓库即可由 GitHub Pages 发布。
 
-<div align="center">
+## 文件结构
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
-</div>
+```
+index.html          页面入口（加载页、页脚访客统计的骨架）
+data.js             ★ 所有内容都在这里：基本信息、链接、About、新闻、作者主页、论文、博客、经历、荣誉、服务、访客统计 ID
+images/             头像、论文配图、硕士论文 PDF、favicon
+assets/
+  style.css         全部样式；配色 / 字体 / 高亮颜色在文件开头的 :root 里
+  render.js         读取 data.js 生成页面；板块标题和顺序在 SECTIONS，论文按钮图标在 PUB_LINK_ICON
+  visitors.js       加载页 + 访客地图和总浏览量（MapMyVisitors）；地图颜色在 MAP_COLORS
+  icons.js          品牌图标（ArXiv / Email / Google Scholar / GitHub / Hugging Face / 小红书 / B站 / X / YouTube）
+  fonts/            本地字体 Inter + Source Serif 4（不依赖 Google Fonts，国内加载快）
+  logos/            学校校徽、公司 logo
+```
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+页面和导航顺序：About → News → Publications → Blog → Education → Work Experience → Honors → Services；访客地图和总浏览量位于页脚。板块标题、导航文字和顺序统一由 `assets/render.js` 的 `SECTIONS` 控制。
 
-<p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
-</p>
+## 常见操作（只改 data.js）
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+| 想做的事 | 怎么改 |
+|---|---|
+| 加一条新闻 | 在 `news` 数组**最前面**加一行 `{ date: "2026.11", text: "..." },` |
+| 修改新闻窗口条数 | 改 `newsVisibleCount`，默认显示前 10 条，剩余新闻滚动查看；桌面和手机均按实际行高计算 |
+| 加一篇预印本 | 取消 `publications` 开头预印本模板的注释并填写；配图放进 `images/` |
+| 预印本中稿了 | 把它的 `type` 改成 `"published"`，`venue` / `year` 改成会议名和年份 |
+| 加学位论文 | `type: "thesis"`（博士论文以后放这里） |
+| 加一篇博客 | 在 `blog` 数组最前面添加 `date`、`title`、`url`、`image`、`platform`、`language`、`summary`；日期格式为 `YYYY.MM.DD` |
+| 添加作者主页 | 在 `authorProfiles` 中添加 `"作者姓名": "主页 URL"`，所有论文会统一引用 |
+| 修改博客配图 | 将图片放进 `images/`，修改对应 `blog` 条目的 `image`；博客和论文可使用各自独立的配图 |
+| 修改头像 | 同时修改 `profile.avatar` 和 `index.html` 中加载页头像的 `src`；当前为 `images/avatar.png` |
+| 加实习 / 工作 | 在 `experience` 最前面加一条，logo 放进 `assets/logos/`；可选 `desc` 写一句工作内容 |
+| 加荣誉 | 在 `honors` 最前面加一行 `{ date: "...", text: "..." },` |
+| 加 / 删顶部链接 | 改 `links` 数组；`icon` 填 `assets/icons.js` 里已有的键名 |
+| 改简介、所在地 | 改 `profile` 里的 `tagline` / `location` |
+| 高亮某条新闻 / 论文 | 在该条里加 `highlight: 0.5`（0~1，越大紫色越深；不写就是不高亮） |
+| 更新日期 | 改最底部的 `lastUpdated` |
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+- 出版物按 `preprint` → `published` → `thesis` 分三组显示，某组为空会自动隐藏。
+- 每篇论文 `links` 的第一项会作为标题和配图的跳转链接。
+- 文字里可以直接写 HTML，例如 `<a href="...">链接</a>`、`<b>加粗</b>`。
 
-## Quick Start
+## 新闻窗口
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+`newsVisibleCount: 10` 表示列表窗口默认完整显示最新 10 条新闻，后续条目通过滚动查看。窗口根据前 10 条的实际高度计算，字体加载完成、窗口宽度变化或手机端文字换行后会重新测量，因此手机端窗口可能比桌面端更高；不要通过修改 CSS 固定高度来调整条数。
 
-## Debug Locally
+新闻不超过设定条数时全部展示，底部滚动提示自动隐藏。新增新闻后，提示中的总条数自动更新。
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+## 出版物作者与按钮
 
-# Acknowledges
+作者顺序和身份标记维护在每篇论文的 `authors` 数组中：
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+```js
+authors: ["Co-author A*", "Xiaokun Sun*", "Zhenyu Zhang†"],
+```
+
+- `*` 表示共同一作（Equal contribution），`†` 表示通信作者（Corresponding author），两种身份兼有时写作 `姓名*†`。
+- 标记说明只出现一次：桌面端位于 Publications 标题行右侧、横线上方；宽度不超过 760px 时，紧贴标题下方换行。文字在 `assets/render.js` 的 `sectionTitle()` 中维护，布局在 `.pub-heading` / `.pub-legend` 中调整。
+- 作者姓名与 `profile.name` 相同时自动加粗、加下划线，身份符号以上标显示。
+- 作者主页统一维护在 `authorProfiles`，键名只填姓名，不包含 `*` 或 `†`。同一作者在不同论文中共用链接；未配置链接的姓名显示为纯文字。项目主页只提供 GitHub 或 Google Scholar 时可沿用该链接。
+- 作者顺序、共同一作、通信作者和主页链接以对应论文主页为依据；主页遗漏身份标记时核对论文 PDF。Inner-Body 的两位共同一作已由论文 PDF 首页确认。
+- 论文按钮名称到图标的映射在 `assets/render.js` 的 `PUB_LINK_ICON` 中；值以 `@` 开头表示使用 `assets/icons.js` 中的品牌图标，例如 `Code: "@github"`。
+- ArXiv 使用专用交叉标志，图标键为 `arxiv`，兼容 `ArXiv`、`arXiv`、`arxiv` 三种按钮名；新增条目建议统一写 `ArXiv`。
+
+## 博客维护
+
+Blog 章节位于 Publications 后、Education 前。每张卡片整体是文章链接，点击图片、文字或留白均会在新标签页打开文章，也支持 Tab 聚焦后按 Enter 跳转；没有单独的 “Read on WeChat” 按钮。论文卡片里的 Blog 按钮继续保留。
+
+在 `data.js` 的 `blog` 数组最前面添加条目，日期按新到旧排列。例如：
+
+```js
+{
+  date: "2026.03.17", // YYYY.MM.DD，使用文章实际发布日期
+  title: "MorphAny3D：无需额外训练的三维变形",
+  url: "https://mp.weixin.qq.com/s/NIfDF0RUEidH0tIlPw0gHw",
+  image: "images/blog_morphany3d.png",
+  platform: "WeChat",
+  language: "Chinese",
+  summary: "A closer look at MorphAny3D and how structured latents enable training-free 3D morphing.",
+},
+```
+
+`title` 是展示标题，可适当缩短原文标题；`summary` 是简短介绍，两者直接填写文字即可。卡片已包含整张链接，不要在标题或介绍中再嵌套链接。
+
+当前博客配图为 `images/blog_morphany3d.png` 和 `images/blog_semantichuman.png`。替换同名文件即可更新图片；使用新文件名时修改对应 `image`。缩略图按 16:9 裁剪显示（`object-fit: cover`），建议使用相同比例以保留画面内容。
+
+## 荣誉与名称约定
+
+博士研究生国家奖学金的英文统一为 **National Scholarship for PhD Students**。2026 年 10 月获奖已分别记录在 `honors` 和 `news` 中，新闻采用 `highlight: 0.5` 高亮。两个数组独立维护；以后更改同一事件的日期或名称时需同步修改。
+
+## 改样式（assets/style.css）
+
+| 想改的 | 位置 |
+|---|---|
+| 主题紫色 | `:root` 里的 `--accent` 系列 |
+| 高亮最深时的颜色 | `:root` 里的 `--hl-max` |
+| 论文卡片之间的间隔 | `.pub-list` 里的 `gap` |
+| 标题字体 / 正文字体 | `:root` 里的 `--font-head` / `--font` |
+| 正文最大宽度 | `:root` 里的 `--w` |
+| 出版物标题和标记说明的布局 | `.pub-heading` / `.pub-legend`；手机端规则在 `@media (max-width: 760px)` 中 |
+| 博客卡片布局、悬停和键盘聚焦样式 | `.blog-card` / `.blog-thumb` / `.blog-title` |
+
+版式约定：新闻是"一个外框 + 内部一行一条、浅色虚线分隔"；论文是"每篇一张独立圆角卡片、卡片之间留间隔"。两者都由 `highlight` 控制底色深浅。
+
+## 其他行为说明
+
+- **邮箱按钮**：点击时会打开默认邮件客户端，同时把邮箱地址复制到剪贴板并弹出提示（很多电脑没有设置邮件客户端，点击 mailto 没反应）。
+- **加载页**：首屏图片加载完后淡出，最多等 2.5 秒。
+- **访客统计**：使用旧主页的 MapMyVisitors（ID 在 `data.js` 的 `visitorMapId`），历史数据保留。
+  页脚显示访客地图，标题行右侧显示总浏览量。mapmyvisitors.com 在中国大陆无法访问：大陆访客会看到"unavailable"提示，海外访客正常显示。
+  两者都在页面加载完后异步请求，不会拖慢页面。
+
+## 本地预览
+
+直接双击 `index.html` 用浏览器打开即可。
+
+发布前建议确认：新闻完整展示前 10 条且能滚动查看后续条目；作者标记和主页链接正确；ArXiv 按钮显示专用标志；整张博客卡片能跳转；桌面和手机端均无横向溢出。替换图片后若仍显示旧图，可强制刷新浏览器。
