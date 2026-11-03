@@ -36,6 +36,7 @@ assets/
 | 加荣誉 | 在 `honors` 最前面加一行 `{ date: "...", text: "..." },` |
 | 加 / 删顶部链接 | 改 `links` 数组；`icon` 填 `assets/icons.js` 里已有的键名 |
 | 改简介、所在地 | 改 `profile` 里的 `tagline` / `location` |
+| 修改联系提示 | 改 `contactNote` 数组，每一项显示为一条独立提示，支持 HTML |
 | 高亮某条新闻 / 论文 | 在该条里加 `highlight: 0.5`（0~1，越大紫色越深；不写就是不高亮） |
 | 更新日期 | 改最底部的 `lastUpdated` |
 
@@ -64,6 +65,7 @@ authors: ["Co-author A*", "Xiaokun Sun*", "Zhenyu Zhang†"],
 - 作者顺序、共同一作、通信作者和主页链接以对应论文主页为依据；主页遗漏身份标记时核对论文 PDF。Inner-Body 的两位共同一作已由论文 PDF 首页确认。
 - 论文按钮名称到图标的映射在 `assets/render.js` 的 `PUB_LINK_ICON` 中；值以 `@` 开头表示使用 `assets/icons.js` 中的品牌图标，例如 `Code: "@github"`。
 - ArXiv 使用专用交叉标志，图标键为 `arxiv`，兼容 `ArXiv`、`arXiv`、`arxiv` 三种按钮名；新增条目建议统一写 `ArXiv`。
+- Model 按钮使用与顶部链接相同的彩色 Hugging Face 图标。资源尚未发布时在论文 `links` 中填 `Model: null`，点击会显示 “Coming soon”；发布后将 `null` 替换为模型 URL 即可。
 
 ## 博客维护
 

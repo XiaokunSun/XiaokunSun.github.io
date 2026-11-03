@@ -39,13 +39,17 @@ window.SITE = {
     `I am currently a PhD student (2024.09 - Now) at <a href="https://is.nju.edu.cn/main.htm">School of Intelligence Science and Technology, Nanjing University</a>, advised by <a href="https://jessezhang92.github.io">Zhenyu Zhang (张振宇)</a>, working closely with <a href="https://tyshiwo.github.io/index.html">Ying Tai (邰颖)</a> and <a href="https://zili-yi.github.io">Zili Yi (易子立)</a>. My research focuses on <b>3D content generation</b>, encompassing human-centric digitalization and high-creativity asset generation.`,
     `I graduated from <a href="https://ci.hfut.edu.cn/index.htm">School of Computer Science and Information Engineering, Hefei University of Technology</a> with a bachelor's degree and from <a href="https://cic.tju.edu.cn">College of Intelligence and Computing, Tianjin University</a> with a master's degree, advised by <a href="https://cic.tju.edu.cn/faculty/likun/index.html">Kun Li (李坤)</a>, working closely with <a href="https://users.cs.cf.ac.uk/Yukun.Lai">Yu-Kun Lai (来煜坤)</a> and <a href="https://seea.tju.edu.cn/info/1015/1608.htm">Jingyu Yang (杨敬钰)</a>.`,
   ],
-  contactNote: "I am always open to discussions and collaborations, feel free to contact me!",
+  contactNote: [
+    "I am always open to discussions and collaborations, please feel free to contact me!",
+    "<b>I am currently seeking research internships in 3D generation.</b> If you have a suitable opportunity, please feel free to contact me!",
+  ],
 
   /* ---------- 新闻 ----------
    * newsVisibleCount 决定默认显示条数；桌面和手机端按实际高度测量，剩余条目滚动查看
    * highlight: 0~1 可选，背景紫色深度 */
   newsVisibleCount: 10,
   news: [
+    { date: "2026.11", text: `Our paper <a href="https://xiaokunsun.github.io/SeMo3D.github.io/">SeMo3D</a> focusing on unifying 3D generation, editing, and completion has been released.`, highlight: 0.0 },
     { date: "2026.10", text: `I am honored to receive the <b>National Scholarship for PhD Students</b>!`, highlight: 0.5 },
     { date: "2026.04", text: `My internship journey at <a href="https://www.mihoyo.com/">miHoYo</a> begins, wish me luck!`, highlight: 0.0 },
     { date: "2026.02", text: `<a href="https://xiaokunsun.github.io/MorphAny3D.github.io">MorphAny3D</a> and <a href="https://luhexiao.github.io/Muses.github.io">Muses</a> are accepted by <b>CVPR 2026</b>!`, highlight: 0.5 },
@@ -85,8 +89,18 @@ window.SITE = {
    * 统一说明放在 Publications 标题行右侧、横线上方；手机端紧贴标题下方换行
    * 名字与 profile.name 相同会自动加粗；主页链接从 authorProfiles 读取
    * links 的第一项会作为标题和配图的跳转链接
+   * 尚未发布的链接填 null，点击按钮显示 Coming soon
    * highlight: 0~1 可选，背景紫色深度（同新闻） */
   publications: [
+    {
+      type: "preprint", highlight: 0.5,
+      title: "SeMo3D: Unifying 3D Generation, Editing, and Completion via Selective Modeling",
+      authors: ["Xiaokun Sun", "Jian Yang", "Zhenyu Zhang†"],
+      venue: "ArXiv", year: 2026,
+      image: "images/SeMo3D.png",
+      tldr: "One unified model for 3D generation, editing, and completion with image, text, and point guidance, requiring no paired editing or completion data.",
+      links: { Project: "https://xiaokunsun.github.io/SeMo3D.github.io/", ArXiv: "https://arxiv.org/abs/2611.02568", Code: "https://github.com/XiaokunSun/SeMo3D", Model: null },
+    },
     // 预印本模板：有新预印本时取消注释并填写
     // {
     //   type: "preprint",
@@ -214,7 +228,7 @@ window.SITE = {
   /* ---------- 工作 / 实习经历 ---------- */
   experience: [
     {
-      period: "2026.04 – Present",
+      period: "2026.04 – 2026.10",
       role: "Research Intern",
       company: "miHoYo", companyZh: "米哈游", url: "https://www.mihoyo.com/",
       location: "Shanghai, China", logo: "assets/logos/mihoyo.png",
@@ -245,5 +259,5 @@ window.SITE = {
    * 页脚显示访客地图 + 总浏览量；mapmyvisitors.com 在中国大陆无法访问，大陆访客会看到"unavailable"提示 */
   visitorMapId: "05gHSbesKYAOaEvi76QB07btN2thK_7EWzKnK3bmrFc",
 
-  lastUpdated: "Oct 2026",
+  lastUpdated: "Nov 2026",
 };

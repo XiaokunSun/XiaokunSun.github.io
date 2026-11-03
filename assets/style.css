@@ -113,7 +113,6 @@ svg.brand { width: 1em; height: 1em; fill: currentColor; flex: none; }
 .pub-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s; }
 .pub:hover .pub-thumb img { transform: scale(1.05); }
 .pub-venue { position: absolute; left: 8px; top: 8px; padding: 2px 9px; border-radius: 4px; background: var(--accent); color: #fff; font-size: 12px; font-weight: 600; letter-spacing: .02em; box-shadow: 0 2px 8px rgba(0, 0, 0, .15); }
-.is-preprint .pub-venue { background: #fff; color: var(--accent); border: 1px solid var(--accent); }
 .pub-title { margin: 0 0 6px; font-family: var(--font-head); font-size: 18.5px; font-weight: 600; line-height: 1.4; }
 .pub-title a { color: var(--text); }
 .pub-title a:hover { color: var(--accent); }
@@ -131,8 +130,9 @@ svg.brand { width: 1em; height: 1em; fill: currentColor; flex: none; }
 .pub-tldr { margin: 0 0 10px; font-size: 14px; line-height: 1.6; color: var(--text-2); }
 .tldr-tag { display: inline-block; margin-right: 8px; padding: 0 6px; border-radius: 4px; background: var(--accent-soft); color: var(--accent-ink); font-size: 11px; font-weight: 700; letter-spacing: .04em; vertical-align: 1px; }
 .pub-links { display: flex; flex-wrap: wrap; gap: 6px; }
-.pub-links a { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 7px; border: 1px solid var(--line); background: var(--surface-2); color: var(--text-2); font-size: 13px; font-weight: 500; }
-.pub-links a:hover { background: var(--accent); border-color: var(--accent); color: #fff; text-decoration: none; }
+.pub-links a, .pub-links button { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 7px; border: 1px solid var(--line); background: var(--surface-2); color: var(--text-2); font: inherit; font-size: 13px; font-weight: 500; cursor: pointer; }
+.pub-links a:hover, .pub-links button:hover { background: var(--accent); border-color: var(--accent); color: #fff; text-decoration: none; }
+.pub-links button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 /* Blog */
 .blog-list { display: grid; gap: 14px; }

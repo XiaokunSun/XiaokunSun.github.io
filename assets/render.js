@@ -42,13 +42,13 @@
     user2: '<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>',
   };
   // 论文链接按钮的图标：按钮名 → 图标；@ 前缀使用 icons.js 中的品牌图标
-  const PUB_LINK_ICON = { Project: "globe", ArXiv: "@arxiv", arXiv: "@arxiv", arxiv: "@arxiv", Paper: "file", PDF: "file", Code: "@github", Blog: "pen", Video: "play", Gallery: "image", Dataset: "db" };
+  const PUB_LINK_ICON = { Project: "globe", ArXiv: "@arxiv", arXiv: "@arxiv", arxiv: "@arxiv", Paper: "file", PDF: "file", Code: "@github", Model: "@huggingface", Blog: "pen", Video: "play", Gallery: "image", Dataset: "db" };
 
   const ui = name => `<svg class="ui" viewBox="0 0 24 24" aria-hidden="true">${UI[name] || UI.link}</svg>`;
   const brand = name => {
     const ic = ICONS[name];
     if (!ic) return ui("link");
-    return `<svg class="brand" viewBox="${ic.viewBox || "0 0 24 24"}" aria-hidden="true">${ic.raw || `<path d="${ic.path}"/>`}</svg>`;
+    return `<svg class="brand brand-${name}" viewBox="${ic.viewBox || "0 0 24 24"}" aria-hidden="true">${ic.raw || `<path d="${ic.path}"/>`}</svg>`;
   };
   const ext = url => (/^https?:\/\//.test(url) ? ' target="_blank" rel="noopener"' : "");
   const a = (url, text, cls = "") => (url ? `<a${cls ? ` class="${cls}"` : ""} href="${url}"${ext(url)}>${text}</a>` : text);
@@ -101,7 +101,7 @@
 
   const BODY = {
     about: () => `<div class="about">${S.about.map(t => `<p>${t}</p>`).join("")}
-      <p class="contact-note">${ui("chat")}<span>${S.contactNote}</span></p></div>`,
+      ${S.contactNote.map(note => `<p class="contact-note">${ui("chat")}<span>${note}</span></p>`).join("")}</div>`,
 
     news: () => `<div class="news-box"><ul class="news-list" tabindex="0" aria-label="News">
       ${S.news.map(n => `<li${hl(n)}><time>${n.date}</time><span>${n.text}</span></li>`).join("")}
@@ -162,7 +162,9 @@
           <h4 class="pub-title">${a(main, p.title)}</h4>
           <p class="pub-authors">${authors(p.authors)}</p>
           ${p.tldr ? `<p class="pub-tldr"><span class="tldr-tag">TL;DR</span>${p.tldr}</p>` : ""}
-          <div class="pub-links">${links.map(([label, url]) => `<a href="${url}"${ext(url)}>${linkIcon(label)}${label}</a>`).join("")}</div>
+          <div class="pub-links">${links.map(([label, url]) => url
+            ? `<a href="${url}"${ext(url)}>${linkIcon(label)}${label}</a>`
+            : `<button type="button" data-coming-soon aria-label="${label}: Coming soon">${linkIcon(label)}${label}</button>`).join("")}</div>
         </div>
       </article>`;
   }
@@ -222,22 +224,25 @@
   }
   if (document.fonts) document.fonts.ready.then(resizeNews);
 
-  // 邮箱链接：很多电脑没有设置默认邮件客户端，点击 mailto 没反应，所以同时把地址复制到剪贴板并提示
+  // 共用提示：未发布资源与邮箱复制
   const toast = document.createElement("div");
   toast.className = "toast";
   toast.setAttribute("role", "status");
   document.body.appendChild(toast);
   let toastTimer;
+  const showToast = msg => {
+    toast.textContent = msg;
+    toast.classList.add("is-on");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove("is-on"), 2600);
+  };
+  document.querySelectorAll("[data-coming-soon]").forEach(button => button.addEventListener("click", () => showToast("Coming soon")));
+
+  // 邮箱链接：同时复制地址，兼容没有默认邮件客户端的电脑
   document.querySelectorAll('a[href^="mailto:"]').forEach(link => link.addEventListener("click", () => {
     const addr = link.getAttribute("href").replace(/^mailto:/, "").split("?")[0];
-    const show = msg => {
-      toast.textContent = msg;
-      toast.classList.add("is-on");
-      clearTimeout(toastTimer);
-      toastTimer = setTimeout(() => toast.classList.remove("is-on"), 2600);
-    };
-    if (navigator.clipboard) navigator.clipboard.writeText(addr).then(() => show(`Email copied: ${addr}`), () => show(addr));
-    else show(addr);
+    if (navigator.clipboard) navigator.clipboard.writeText(addr).then(() => showToast(`Email copied: ${addr}`), () => showToast(addr));
+    else showToast(addr);
   }));
 
   // 导航高亮当前板块
