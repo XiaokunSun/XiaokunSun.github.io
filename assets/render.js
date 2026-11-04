@@ -14,7 +14,7 @@
     { id: "publications", nav: "Publications",    title: "Publications",           icon: "book" },
     { id: "blog",         nav: "Blog",            title: "Blog",                   icon: "pen" },
     { id: "education",    nav: "Education",       title: "Educational Experience", icon: "cap" },
-    { id: "experience",   nav: "Work Experience", title: "Work Experience",        icon: "briefcase" },
+    { id: "experience",   nav: "Work",            title: "Work Experience",        icon: "briefcase" },
     { id: "honors",       nav: "Honors",          title: "Honors & Awards",        icon: "award" },
     { id: "services",     nav: "Services",        title: "Academic Services",      icon: "users" },
   ];
