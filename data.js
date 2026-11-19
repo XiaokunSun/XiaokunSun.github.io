@@ -32,6 +32,7 @@ window.SITE = {
     { label: "Bilibili",       icon: "bilibili",      url: "https://space.bilibili.com/255789819" },
     { label: "X",              icon: "x",             url: "https://x.com/MingJian26" },
     { label: "YouTube",        icon: "youtube",       url: "https://www.youtube.com/@Xiaokun_Sun" },
+    { label: "LinkedIn",       icon: "linkedin",      url: "https://www.linkedin.com/in/xiaokun-sun-98610b374/" },
   ],
 
   /* ---------- About Me ---------- */
